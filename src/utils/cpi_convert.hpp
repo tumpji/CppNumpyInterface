@@ -1,5 +1,5 @@
-#if not defined UTILS_CONVERT_INCLUDED
-#define UTILS_CONVERT_INCLUDED
+#if not defined CPI_UTILS_CONVERT_INCLUDED
+#define CPI_UTILS_CONVERT_INCLUDED
 
 #include <type_traits>
 #include <limits>
@@ -47,4 +47,4 @@ namespace convert {
 
 } // end namespace convert
 
-#endif // UTILS_CONVERT_INCLUDED
+#endif // CPI_UTILS_CONVERT_INCLUDED

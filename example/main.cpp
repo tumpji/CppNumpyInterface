@@ -9,9 +9,9 @@
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
 
 
-#include "ndarray.h"
-#include "tuple.h"
-#include "ndarray.h"
+#include "cpi_ndarray.hpp"
+#include "cpi_tuple.hpp"
+#include "cpi_ndarray.hpp"
 
 #include <python3.6m/Python.h>
 

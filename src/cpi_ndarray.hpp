@@ -14,9 +14,9 @@
 #include "python3.6m/Python.h"
 #include <ndarrayobject.h>
 
-#include "c_to_numpy_types.h"
-#include "utils/boolean.h"
-#include "utils/convert.h"
+#include "cpi_types.hpp"
+#include "utils/cpi_bool.hpp"
+#include "utils/cpi_convert.hpp"
 
 
 enum class INIT {EMPTY, ZERO};

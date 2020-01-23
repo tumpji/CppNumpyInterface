@@ -1,11 +1,11 @@
-#if not defined TUPLE_INCLUDED
-#define TUPLE_INCLUDED
+#if not defined CPI_TUPLE_INCLUDED
+#define CPI_TUPLE_INCLUDED
 
 #include <stdexcept>
 
 #include "python3.6m/Python.h"
 
-#include "utils/string.h"
+#include "utils/cpi_string.hpp"
 
 
 //std::enable_if_t<(sizeof...(Args) > 0), bool> = true>
@@ -81,4 +81,4 @@ private:
     PyObject* object;
 };
 
-#endif // TUPLE_INCLUDED
+#endif // CPI_TUPLE_INCLUDED

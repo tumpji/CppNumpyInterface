@@ -1,10 +1,10 @@
-#if not defined UTILS_STRING_INCLUDED
-#define UTILS_STRING_INCLUDED
+#if not defined CPI_UTILS_STRING_INCLUDED
+#define CPI_UTILS_STRING_INCLUDED
 // this code is inspired by blog:
 // https://akrzemi1.wordpress.com/2017/06/28/compile-time-string-concatenation/
 
 #include <utility>
-#include "x_assert.h"
+#include "cpi_assert.hpp"
 
 // ***********************
 // literal
@@ -84,4 +84,4 @@ constexpr auto staticLiteral(const char (&&string)[NPO]) -> StaticString<NPO-1>
 
 
 
-#endif // UTILS_STRING_INCLUDED
+#endif // CPI_UTILS_STRING_INCLUDED

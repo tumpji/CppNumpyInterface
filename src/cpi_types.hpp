@@ -1,5 +1,8 @@
+#if not defined  CPI_TYPES_INCLUDED
+#define  CPI_TYPES_INCLUDED
+
 #include "ndarraytypes.h"
-#include "x_assert.h"
+#include "cpi_assert.hpp"
 
 template<typename T>
  NPY_TYPES to_numpy_type() {
@@ -33,3 +36,6 @@ template<>
  NPY_TYPES to_numpy_type<double>(){return NPY_TYPES::NPY_DOUBLE;}
 template<>
  NPY_TYPES to_numpy_type<float>(){return NPY_TYPES::NPY_FLOAT;}
+
+
+#endif // CPI_TYPES_INCLUDED

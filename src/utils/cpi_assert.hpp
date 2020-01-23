@@ -1,8 +1,8 @@
 // this code is inspired by blog:
 // https://akrzemi1.wordpress.com/2017/05/18/asserts-in-constexpr-functions/
 
-#if not defined X_ASSERT_INCLUDED
-#define X_ASSERT_INCLUDED
+#if not defined CPI_ASSERT_INCLUDED
+#define CPI_ASSERT_INCLUDED
 
 
 
@@ -22,4 +22,4 @@
 
 
 
-#endif // X_ASSERT_INCLUDED
+#endif // CPI_ASSERT_INCLUDED

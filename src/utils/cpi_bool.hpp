@@ -1,5 +1,5 @@
-#if not defined UTILS_BOOLEAN_INCLUDED
-#define UTILS_BOOLEAN_INCLUDED
+#if not defined CPI_UTILS_BOOLEAN_INCLUDED
+#define CPI_UTILS_BOOLEAN_INCLUDED
 
 #include <type_traits>
 
@@ -25,4 +25,4 @@ using all_same = all_true<std::is_same<T,Ts>...>;
 } // end namespace types
 
 
-#endif // UTILS_BOOLEAN_INCLUDED
+#endif // CPI_UTILS_BOOLEAN_INCLUDED
